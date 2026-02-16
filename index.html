@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RE-TECH IAE — Matériel Reconditionné pour Étudiants</title>
+    <meta name="description" content="RE-TECH IAE : PC portables et tablettes reconditionnés à prix étudiant. Garanti 6 mois, certifié RGPD, disponible à l'IAE Montpellier. Lancé le 15 septembre 2026.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ═══════════════════════ NAVBAR ═══════════════════════ -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon">♻️</span>
+                <span class="logo-text">RE-TECH <span class="logo-accent">IAE</span></span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#economie">Économie Circulaire</a></li>
+                <li><a href="#specs">Garanties</a></li>
+                <li><a href="#retrait">Point de Retrait</a></li>
+                <li><a href="#stock" class="nav-cta">Voir le stock</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Menu de navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ═══════════════════════ HERO ═══════════════════════ -->
+    <header class="hero" id="hero">
+        <div class="hero-bg-overlay"></div>
+        <div class="hero-particles" id="heroParticles"></div>
+        <div class="hero-container">
+            <div class="hero-content reveal">
+                <span class="hero-badge">🌱 Projet IAE Montpellier</span>
+                <h1 class="hero-title">
+                    Ton prochain PC à <span class="gradient-text">prix étudiant</span>, le geste écolo en plus.
+                </h1>
+                <p class="hero-subtitle">
+                    Matériel informatique reconditionné à l'IAE, garanti 6 mois et certifié par nos techniciens.
+                </p>
+                <div class="hero-actions">
+                    <a href="#stock" class="btn btn-primary" id="ctaMain">
+                        <span>Voir le stock disponible</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                    </a>
+                    <a href="#economie" class="btn btn-ghost">En savoir plus</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number" data-target="150">0</span><span class="stat-suffix">+</span>
+                        <span class="stat-label">Appareils reconditionnés</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-target="70">0</span><span class="stat-suffix">%</span>
+                        <span class="stat-label">Moins cher que le neuf</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-target="6">0</span><span class="stat-suffix"> mois</span>
+                        <span class="stat-label">De garantie incluse</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual reveal reveal-delay-1">
+                <div class="hero-image-wrapper">
+                    <img src="images/hero.png" alt="PC portables reconditionnés sur un bureau avec des plantes" class="hero-image">
+                    <div class="hero-float-card float-card-1">
+                        <span class="float-icon">✅</span>
+                        <span>Certifié RGPD</span>
+                    </div>
+                    <div class="hero-float-card float-card-2">
+                        <span class="float-icon">🔋</span>
+                        <span>Batterie testée</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+                <path d="M0 60C240 120 480 0 720 60C960 120 1200 0 1440 60V120H0V60Z" fill="var(--bg-primary)"/>
+            </svg>
+        </div>
+    </header>
+
+    <!-- ═══════════════════════ ÉCONOMIE CIRCULAIRE ═══════════════════════ -->
+    <section class="section section-eco" id="economie">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">♻️ Notre Mission</span>
+                <h2 class="section-title">L'économie circulaire au service des étudiants</h2>
+                <p class="section-desc">Chaque appareil reconditionné est un appareil qui ne finit pas à la déchetterie. Ensemble, luttons contre la précarité numérique et le gaspillage électronique.</p>
+            </div>
+
+            <div class="cycle-grid">
+                <div class="cycle-step reveal">
+                    <div class="cycle-icon-wrapper">
+                        <div class="cycle-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8Z"/><path d="M7 12L12 7L17 12"/><path d="M12 7V17"/></svg>
+                        </div>
+                        <span class="cycle-number">01</span>
+                    </div>
+                    <h3>Collecte à l'IAE</h3>
+                    <p>On récupère le matériel donné par les entreprises partenaires, les anciens étudiants et l'administration.</p>
+                </div>
+                <div class="cycle-arrow reveal">
+                    <svg width="48" height="24" viewBox="0 0 48 24" fill="none"><path d="M0 12H44M44 12L34 2M44 12L34 22" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </div>
+                <div class="cycle-step reveal reveal-delay-1">
+                    <div class="cycle-icon-wrapper">
+                        <div class="cycle-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                        </div>
+                        <span class="cycle-number">02</span>
+                    </div>
+                    <h3>Reconditionnement</h3>
+                    <p>Nos techniciens nettoient, réparent, installent un OS neuf et testent chaque composant.</p>
+                </div>
+                <div class="cycle-arrow reveal">
+                    <svg width="48" height="24" viewBox="0 0 48 24" fill="none"><path d="M0 12H44M44 12L34 2M44 12L34 22" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </div>
+                <div class="cycle-step reveal reveal-delay-2">
+                    <div class="cycle-icon-wrapper">
+                        <div class="cycle-icon">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                        </div>
+                        <span class="cycle-number">03</span>
+                    </div>
+                    <h3>Revente solidaire</h3>
+                    <p>Les étudiants de l'IAE accèdent à du matériel de qualité à prix mini, sur justificatif étudiant.</p>
+                </div>
+            </div>
+
+            <div class="eco-visual reveal">
+                <img src="images/circular-economy.png" alt="Illustration du cycle de l'économie circulaire : collecte, reconditionnement, revente" class="eco-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════ CARACTÉRISTIQUES ═══════════════════════ -->
+    <section class="section section-specs" id="specs">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">🔧 Qualité garantie</span>
+                <h2 class="section-title">Du matériel fiable, vérifié et garanti</h2>
+                <p class="section-desc">Pas de compromis sur la qualité. Chaque appareil passe par un processus de certification rigoureux.</p>
+            </div>
+
+            <div class="specs-grid">
+                <div class="spec-card reveal">
+                    <div class="spec-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg>
+                    </div>
+                    <h3>Moins de 5 ans</h3>
+                    <p>Uniquement des PC portables et tablettes récents pour des performances fiables au quotidien.</p>
+                </div>
+                <div class="spec-card reveal reveal-delay-1">
+                    <div class="spec-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+                    </div>
+                    <h3>Certifié RGPD</h3>
+                    <p>Suppression certifiée de toutes les données personnelles. Votre vie privée et celle des anciens utilisateurs est respectée.</p>
+                    <span class="spec-badge">Argument choc</span>
+                </div>
+                <div class="spec-card reveal reveal-delay-2">
+                    <div class="spec-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="6" width="18" height="12" rx="2"/><path d="M23 13v-2"/><path d="M11 12h.01"/></svg>
+                    </div>
+                    <h3>Batterie contrôlée</h3>
+                    <p>Chaque batterie est testée pour garantir une autonomie minimum acceptable pour une journée de cours.</p>
+                </div>
+                <div class="spec-card reveal">
+                    <div class="spec-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                    </div>
+                    <h3>OS installé</h3>
+                    <p>Système d'exploitation fraîchement installé et mis à jour, prêt à l'emploi dès la première ouverture.</p>
+                </div>
+                <div class="spec-card reveal reveal-delay-1">
+                    <div class="spec-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="10"/></svg>
+                    </div>
+                    <h3>Garantie 6 mois</h3>
+                    <p>Chaque appareil est couvert par une garantie de 6 mois. Un problème ? On s'en occupe.</p>
+                </div>
+                <div class="spec-card reveal reveal-delay-2">
+                    <div class="spec-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M 3 3 L 12 3 L 12 12 L 3 12 Z"/><path d="M 12 12 L 21 12 L 21 21 L 12 21 Z"/><path d="M 3 12 L 12 12"/><path d="M 12 3 L 12 12"/></svg>
+                    </div>
+                    <h3>Nettoyage complet</h3>
+                    <p>Nettoyage physique complet : boîtier, clavier, écran, ventilateurs. Comme neuf, tout simplement.</p>
+                </div>
+            </div>
+
+            <div class="specs-visual reveal">
+                <img src="images/devices.png" alt="PC portable et tablette reconditionnés en parfait état" class="specs-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════ POINT DE RETRAIT ═══════════════════════ -->
+    <section class="section section-pickup" id="retrait">
+        <div class="container">
+            <div class="pickup-grid">
+                <div class="pickup-content reveal">
+                    <span class="section-tag">📍 Où nous trouver</span>
+                    <h2 class="section-title">Point de retrait à l'IAE Montpellier</h2>
+                    <p class="section-desc">Pas de livraison, pas de frais cachés. Viens récupérer ton matériel directement sur le campus !</p>
+                    
+                    <div class="pickup-details">
+                        <div class="pickup-item">
+                            <div class="pickup-item-icon">🏫</div>
+                            <div>
+                                <strong>Adresse</strong>
+                                <p>IAE Montpellier — Place Eugène Bataillon, 34095 Montpellier</p>
+                            </div>
+                        </div>
+                        <div class="pickup-item">
+                            <div class="pickup-item-icon">🕐</div>
+                            <div>
+                                <strong>Horaires</strong>
+                                <p>Lundi au vendredi, 10h – 16h (hors vacances universitaires)</p>
+                            </div>
+                        </div>
+                        <div class="pickup-item">
+                            <div class="pickup-item-icon">📋</div>
+                            <div>
+                                <strong>Pièce requise</strong>
+                                <p>Carte étudiante IAE Montpellier en cours de validité</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pickup-visual reveal reveal-delay-1">
+                    <img src="images/students.png" alt="Étudiants sur le campus de l'IAE Montpellier avec leurs ordinateurs portables" class="pickup-image">
+                    <div class="pickup-map-overlay">
+                        <span>📍 IAE Montpellier</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════ CTA FINAL ═══════════════════════ -->
+    <section class="section section-cta" id="stock">
+        <div class="container">
+            <div class="cta-box reveal">
+                <h2>Prêt à t'équiper ?</h2>
+                <p>Rejoins le mouvement RE-TECH et offre-toi un PC de qualité à prix solidaire.</p>
+                <a href="mailto:retech-iae@umontpellier.fr" class="btn btn-primary btn-lg">
+                    <span>Réserver mon appareil</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </a>
+                <p class="cta-note">Le stock sera disponible à partir du <strong>15 septembre 2026</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════ FOOTER ═══════════════════════ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="nav-logo">
+                        <span class="logo-icon">♻️</span>
+                        <span class="logo-text">RE-TECH <span class="logo-accent">IAE</span></span>
+                    </a>
+                    <p>Projet étudiant d'économie circulaire. Matériel informatique reconditionné pour les étudiants de l'IAE Montpellier.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#economie">Économie Circulaire</a></li>
+                        <li><a href="#specs">Nos Garanties</a></li>
+                        <li><a href="#retrait">Point de Retrait</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:retech-iae@umontpellier.fr">retech-iae@umontpellier.fr</a></li>
+                        <li><a href="#">@retech.iae</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 RE-TECH IAE — Projet Étudiant. Lancement officiel le <strong>15 septembre 2026</strong>.</p>
+                <p class="footer-legal">Réservé exclusivement aux étudiants de l'IAE Montpellier sur présentation d'un justificatif en cours de validité.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
